@@ -1,0 +1,75 @@
+﻿<Window x:Class="Komunalka.Client.WPF.Views.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Komunalka.Client.WPF.Views"
+        mc:Ignorable="d"
+        Title="MainWindowView" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Customer personal data"
+                  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="5">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical" Margin="3">
+                    <TextBlock Text="Code"/>
+                    <TextBox/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="3">
+                    <TextBlock Text="Name"/>
+                    <TextBox/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="3">
+                    <TextBlock Text="Address"/>
+                    <TextBox/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="3">
+                    <TextBlock Text="Year"/>
+                    <TextBox/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="3">
+                    <TextBlock Text="Month"/>
+                    <TextBox/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox>
+            <DataGrid>
+                
+            </DataGrid>
+        </GroupBox>
+
+        <TextBlock/>
+        <TextBox/>
+        <TextBlock/>
+        <TextBox/>
+        <TextBlock/>
+        <TextBox/>
+        <TextBlock/>
+        <TextBox/>
+        <TextBlock/>
+        <TextBox/>
+        <TextBlock/>
+        <TextBox/>
+        <TextBlock/>
+        <TextBox/>
+        <TextBlock/>
+        <TextBox/>
+        <TextBlock/>
+        <TextBox/>
+
+    </Grid>
+</Window>
