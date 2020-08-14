@@ -21,6 +21,13 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        <ComboBox>
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
         <GroupBox Header="Customer personal data"
                   Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="5">
             <StackPanel Orientation="Horizontal">
